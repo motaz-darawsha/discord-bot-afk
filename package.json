@@ -5,7 +5,7 @@
   "private": false,
   "type": "module",
   "main": "index.js",
-  "author": "Motaz Darawsha",
+  "author": "Motaz Darawsha <me@imotaz.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -33,8 +33,8 @@
   },
   "copyright": "Copyright (c) 2026 Motaz Darawsha",
   "dependencies": {
-    "@discordjs/voice": "latest",
-    "@stablelib/xchacha20poly1305": "^2.0.0",
-    "discord.js": "latest"
+    "@discordjs/voice": "0.19.2",
+    "@stablelib/xchacha20poly1305": "^2.0.1",
+    "discord.js": "14.27.0"
   }
 }

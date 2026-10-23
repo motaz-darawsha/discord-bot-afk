@@ -1,0 +1,39 @@
+{
+  "name": "discord-voice-bot",
+  "version": "1.0.0",
+  "description": "A resilient Discord bot that stays in a voice channel 24/7 with smart, rate-limited auto-rejoin.",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "author": "Motaz Darawsha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motaz-darawsha/discord-bot-afk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/motaz-darawsha/discord-bot-afk/issues"
+  },
+  "homepage": "https://github.com/motaz-darawsha/discord-bot-afk#readme",
+  "keywords": [
+    "discord",
+    "discord.js",
+    "discord-bot",
+    "voice",
+    "voice-channel",
+    "24-7",
+    "auto-rejoin"
+  ],
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "check": "node --check index.js"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "@discordjs/voice": "latest",
+    "@stablelib/xchacha20poly1305": "^2.0.0",
+    "discord.js": "latest"
+  }
+}

@@ -1,0 +1,6 @@
+services:
+  bot:
+    build: .
+    container_name: discord-voice-bot
+    restart: unless-stopped
+    env_file: .env

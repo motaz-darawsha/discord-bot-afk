@@ -1,0 +1,46 @@
+# Logs
+logs/
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.production
+*.local
+
+# Build output
+.dist/
+build/
+*.tsbuildinfo
+
+# Temporary files
+*.tmp
+*.temp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local env files
+.env
+.env.local
+.env.production
+
+# npm package lock
+package-lock.json
+
+# Log files
+*.log

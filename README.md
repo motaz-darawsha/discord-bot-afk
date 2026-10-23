@@ -18,12 +18,12 @@ English | [العربية](README.ar.md)
 
 - Joins a configured voice (or stage) channel and stays there around the clock
 - Rejoins automatically when kicked, disconnected, or moved to another channel
-- Smart rejoin limiter: exponential backoff with jitter, a sliding-window attempt cap, and a cooldown that protects you from Discord rate limits even if someone keeps kicking the bot
+- Smart rejoin limiter: exponential backoff with jitter, a sliding-window attempt cap, and a cooldown that protects the bot from Discord rate limits even if someone keeps kicking it
 - Self-healing: periodic health check plus gateway resume/ready hooks catch silent drops
 - Crash-proof: every handler is guarded, process-level `unhandledRejection` / `uncaughtException` are logged instead of killing the bot
 - Login retry with backoff, and a clean exit on fatal errors such as an invalid token
 - Graceful shutdown on `SIGINT` / `SIGTERM`
-- Single file, no comments to wade through, easy to read and extend
+- Single file, easy to read and extend
 - Docker and GitHub Actions ready
 
 ## Requirements

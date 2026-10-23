@@ -1,8 +1,8 @@
 {
   "name": "discord-voice-bot",
   "version": "1.0.0",
-  "description": "A resilient Discord bot that stays in a voice channel 24/7 with smart, rate-limited auto-rejoin.",
-  "private": true,
+  "description": "A resilient Discord bot that stays in a voice channel 24/7 with smart, rate-limited auto-rejoin. Built by Motaz Darawsha.",
+  "private": false,
   "type": "module",
   "main": "index.js",
   "author": "Motaz Darawsha",

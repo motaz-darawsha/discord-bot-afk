@@ -31,6 +31,7 @@
   "engines": {
     "node": ">=22.12.0"
   },
+  "copyright": "Copyright (c) 2026 Motaz Darawsha",
   "dependencies": {
     "@discordjs/voice": "latest",
     "@stablelib/xchacha20poly1305": "^2.0.0",

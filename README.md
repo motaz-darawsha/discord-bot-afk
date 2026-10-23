@@ -1,5 +1,3 @@
-<div align="center">
-
 # Discord Voice Bot
 
 **A resilient Discord bot that stays in a voice channel 24/7 and rejoins automatically, with rate-limited backoff so Discord never sees spam.**
@@ -13,6 +11,19 @@ English | [العربية](README.ar.md)
 </div>
 
 ---
+
+## Table of Contents
+
+- [Features](#features)
+- [Requirements](#requirements)
+- [Quick start](#quick-start)
+- [Configuration](#configuration)
+- [Rejoin behavior](#rejoin-behavior)
+- [Deployment](#deployment)
+- [Project structure](#project-structure)
+- [Troubleshooting](#troubleshooting)
+- [Credits](#credits)
+- [License](#license)
 
 ## Features
 
@@ -151,3 +162,11 @@ Created by **Motaz Darawsha** using **Claude Code**.
 ## License
 
 Released under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+
+**© 2026 Motaz Darawsha. Released under the [MIT License](LICENSE).**
+
+</div>

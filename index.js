@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { ChannelType, Client, Events, GatewayIntentBits, Status } from 'discord.js';
 import {
   entersState,
